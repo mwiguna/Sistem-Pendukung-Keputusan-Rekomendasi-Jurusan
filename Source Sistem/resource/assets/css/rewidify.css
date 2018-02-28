@@ -1,0 +1,320 @@
+
+/**
+ * Rewidify v1.1.0 
+ * (c) 2016 - 2017 M. Wiguna Saputra 
+ * https://mwiguna.github.io/rewidify 
+ */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	float: left;
+	width: 75%;
+	margin: 0 12.5%;
+}
+.row {
+	float: left;
+	width: 100%;
+}
+[class*="col-"] {
+	float: left;
+	word-break: keep-all;
+	transition: width 0.3s ease;
+	box-sizing: border-box;
+}
+
+/*--------------- Column --------------*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*------------- Push Column ------------*/
+
+.push-1 {margin-right: 8.33%;}
+.push-2 {margin-right: 16.66%;}
+.push-3 {margin-right: 25%;}
+.push-4 {margin-right: 33.33%;}
+.push-5 {margin-right: 41.66%;}
+.push-6 {margin-right: 50%;}
+.push-7 {margin-right: 58.33%;}
+.push-8 {margin-right: 66.66%;}
+.push-9 {margin-right: 75%;}
+.push-10 {margin-right: 83.33%;}
+.push-11 {margin-right: 91.66%;}
+.push-12 {margin-right: 100%;}
+
+/* ------------ Offset Column -----------*/
+
+.offset-1 {margin-left: 8.33%;}
+.offset-2 {margin-left: 16.66%;}
+.offset-3 {margin-left: 25%;}
+.offset-4 {margin-left: 33.33%;}
+.offset-5 {margin-left: 41.66%;}
+.offset-6 {margin-left: 50%;}
+.offset-7 {margin-left: 58.33%;}
+.offset-8 {margin-left: 66.66%;}
+.offset-9 {margin-left: 75%;}
+.offset-10 {margin-left: 83.33%;}
+.offset-11 {margin-left: 91.66%;}
+.offset-12 {margin-left: 100%;}
+
+/*----------- Vertical Offset ---------*/
+
+.vtop-1 {margin-top: 1%}
+.vtop-2 {margin-top: 2%}
+.vtop-3 {margin-top: 3%}
+.vtop-4 {margin-top: 4%}
+.vtop-5 {margin-top: 5%}
+.vbottom-1 {margin-bottom: 1%}
+.vbottom-2 {margin-bottom: 2%}
+.vbottom-3 {margin-bottom: 3%}
+.vbottom-4 {margin-bottom: 4%}
+.vbottom-5 {margin-bottom: 5%}
+.vleft-1  {margin-left: 1%}
+.vleft-2  {margin-left: 2%}
+.vleft-3  {margin-left: 3%}
+.vleft-4  {margin-left: 4%}
+.vleft-5  {margin-left: 5%}
+.vright-1 {margin-right: 1%}
+.vright-2 {margin-right: 2%}
+.vright-3 {margin-right: 3%}
+.vright-4 {margin-right: 4%}
+.vright-5 {margin-right: 5%}
+.ptop-1   {padding-top: 1%}
+.ptop-2   {padding-top: 2%}
+.ptop-3   {padding-top: 3%}
+.ptop-4   {padding-top: 4%}
+.ptop-5   {padding-top: 5%}
+.pbottom-1 {padding-bottom: 1%}
+.pbottom-2 {padding-bottom: 2%}
+.pbottom-3 {padding-bottom: 3%}
+.pbottom-4 {padding-bottom: 4%}
+.pbottom-5 {padding-bottom: 5%}
+.pleft-1  {padding-left: 1%}
+.pleft-2  {padding-left: 2%}
+.pleft-3  {padding-left: 3%}
+.pleft-4  {padding-left: 4%}
+.pleft-5  {padding-left: 5%}
+.pright-1 {padding-right: 1%}
+.pright-2 {padding-right: 2%}
+.pright-3 {padding-right: 3%}
+.pright-4 {padding-right: 4%}
+.pright-5 {padding-right: 5%}
+.pall-1 {padding: 1%}
+.pall-2 {padding: 2%}
+.pall-3 {padding: 3%}
+.pall-4 {padding: 4%}
+.pall-5 {padding: 5%}
+
+/*---------- Input & Button ---------*/
+
+input, select {
+	padding: 2%;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	margin-bottom: 2%;
+}
+
+input:focus, select:focus {
+	border-color: #2AE;
+}
+
+button, a.btn {
+	border-radius: 4px;
+	border: none;
+	padding: 2%;
+	color: #fff;
+	margin-right: 1%;
+	text-align: center;
+	text-decoration: none;
+}
+
+button:hover {cursor: pointer}
+.pointer:hover {cursor: pointer}
+
+.btn {color: #fff;}
+.btn-red   {background-color: #DF3322}
+.btn-green {background-color: #2B4}
+.btn-blue  {background-color: #37D}
+.btn-red:hover   {background-color: #C32}
+.btn-green:hover {background-color: #2A3}
+.btn-blue:hover  {background-color: #26C}
+.btn-grey:hover  {background-color: #ddd}
+.btn-grey  {
+	color: #333;
+	background-color: #eeeeee
+}
+
+.alert {
+	border-radius: 3px;
+	border: none;
+	padding: 2%;
+	margin-top: 2%;
+	font-size: 11pt;
+}
+.alert-red {
+	color: #B12;
+	background-color: rgba(245, 50, 20, 0.1);
+}
+.alert:empty { background-color: transparent }
+
+/*---------- Color ---------*/
+
+.green  {color: #2A3 !important}
+.blue   {color: #23B !important}
+.grey   {color: #777 !important}
+.white  {color: #FFF !important}
+
+.bg-green {background-color: #2A3}
+.bg-blue  {background-color: #28C}
+.bg-grey  {background-color: #777}
+.bg-dark  {background-color: #3A464B}
+
+/*---------- Alignment ---------*/
+
+.center  {text-align: center}
+.left    {text-align: left}
+.right   {text-align: right}
+.justify {text-align: justify}
+
+/*----- Responsive Image and Video -----*/
+
+img, video {width: 100%;}
+
+/*----- Media Query Responsive Design -----*/
+
+@media only screen and (max-width: 1180px){
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33.33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width: 83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
+	.push-1 {margin-right: 10%;}
+	.push-2 {margin-right: 20%;}
+	.push-3 {margin-right: 30%;}
+	.push-4 {margin-right: 40%;}
+	.push-5 {margin-right: 50%;}
+	.push-6 {margin-right: 60%;}
+	.push-7 {margin-right: 70%;}
+	.push-8 {margin-right: 80%;}
+	.push-9 {margin-right: 90%;}
+	.push-10, .push-11 {margin-right: 100%;}
+	.offset-1  {margin-left: 0%;}
+	.offset-2  {margin-left: 10%;}
+	.offset-3  {margin-left: 20%;}
+	.offset-4  {margin-left: 30%;}
+	.offset-5, .offset-6  {margin-left: 40%;}
+	.offset-7  {margin-left: 50%;}
+	.offset-8  {margin-left: 60%;}
+	.offset-9  {margin-left: 70%;}
+	.offset-10 {margin-left: 80%;}
+	.offset-11 {margin-left: 90%;}
+}
+@media only screen and (max-width: 990px){
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+	.push-1 {margin-right: 12.5%;}
+	.push-2 {margin-right: 25%;}
+	.push-3 {margin-right: 37.5%;}
+	.push-4 {margin-right: 50%;}
+	.push-5 {margin-right: 62.5%;}
+	.push-6 {margin-right: 75%;}
+	.push-7 {margin-right: 87.5%;}
+	.push-8, .push-9, .push-10, .push-11 {margin-right: 100%;}
+	.offset-1, .offset-2 {margin-left: 0%;}
+	.offset-3 {margin-left: 12.5%;}
+	.offset-4 {margin-left: 25%;}
+	.offset-5 {margin-left: 37.5%;}
+	.offset-6 {margin-left: 25%;}
+	.offset-7 {margin-left: 37.5%;}
+	.offset-8 {margin-left: 50%;}
+	.offset-9 {margin-left: 62.5%;}
+	.offset-10 {margin-left: 75%;}
+	.offset-11 {margin-left: 87.5%;}
+}
+@media only screen and (max-width: 860px){
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+	.push-1 {margin-right: 16.66%;}
+	.push-2 {margin-right: 33.33%;}
+	.push-3 {margin-right: 50%;}
+	.push-4 {margin-right: 66.66%;}
+	.push-5 {margin-right: 83.34%;}
+	.push-6, .push-7, .push-8, .push-9, .push-10, .push-11 {margin-right: 100%;}
+	.offset-1, .offset-2, .offset-3 {margin-left: 0%;}
+	.offset-4 {margin-left: 16.66%;}
+	.offset-5, .offset-8 {margin-left: 33.33%;}
+	.offset-6, .offset-7 {margin-left: 16.66%;}
+	.offset-9 {margin-left: 50%;}
+	.offset-10 {margin-left: 66.66%;}
+	.offset-11 {margin-left: 83.34%;}
+	.container{width: 80%; margin: 0 10%;}
+}
+@media only screen and (max-width: 768px){
+	.col-xs-1 {width: 8.33%;}
+	.col-xs-2 {width: 16.66%;}
+	.col-xs-3 {width: 25%;}
+	.col-xs-4 {width: 33.33%;}
+	.col-xs-5 {width: 41.66%;}
+	.col-xs-6 {width: 50%;}
+	.col-xs-7 {width: 58.33%;}
+	.col-xs-8 {width: 66.66%;}
+	.col-xs-9 {width: 75%;}
+	.col-xs-10 {width: 83.33%;}
+	.col-xs-11 {width: 91.66%;}
+	.col-xs-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 640px){
+	.col-xxs-1 {width: 8.33%;}
+	.col-xxs-2 {width: 16.66%;}
+	.col-xxs-3 {width: 25%;}
+	.col-xxs-4 {width: 33.33%;}
+	.col-xxs-5 {width: 41.66%;}
+	.col-xxs-6 {width: 50%;}
+	.col-xxs-7 {width: 58.33%;}
+	.col-xxs-8 {width: 66.66%;}
+	.col-xxs-9 {width: 75%;}
+	.col-xxs-10 {width: 83.33%;}
+	.col-xxs-11 {width: 91.66%;}
+	.col-xxs-12 {width: 100%;}
+}

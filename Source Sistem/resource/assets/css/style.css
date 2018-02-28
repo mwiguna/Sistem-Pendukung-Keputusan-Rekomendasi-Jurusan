@@ -1,0 +1,107 @@
+
+/* Style */
+
+* {
+	font-family: calibri;
+	color: #555;
+}
+
+input, select, .p1 {
+	padding: 1.5%;
+}
+.p05 {
+	padding: 1%;
+}
+.mtop1 {
+	margin-top: 1%;
+}
+.mtop2 {
+	margin-top: 2%;
+}
+
+input[type=submit]:hover{
+	cursor: pointer;
+}
+
+.pside {
+	padding-top: 1%;
+	padding-right: 4%;
+	padding-left: 4%;
+}
+.psideDouble {
+	padding: 2% 8%;
+}
+.m2 {
+	margin-right: 2%;
+}
+
+.center {
+	text-align: center;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
+.big {
+	font-size: 24pt;
+}
+
+.cGreen {
+	color: #00C555;
+}
+.cYellow {
+	color: #FFA500;
+}
+.cRed {
+	color: #FF6545;
+}
+.line {
+	border-top: 1px solid #ddd;
+}
+
+/* Main Style */
+
+.header {
+	font-size: 14pt;
+	color: #fff;
+	background-color: #3377DD;
+	padding: 1.25%;
+}
+.main-title {
+	color: #37D;
+	font-size: 16pt;
+	margin-bottom: 1%;
+}
+
+.nav {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 14pt;
+}
+.parallelogram {
+	padding: 1%;
+	color: #fff;
+	text-align: center;
+	transform: skew(-20deg);
+	background: #37D;
+	text-decoration: none;
+}
+.parallelogram:hover {
+	background-color: #25C;
+}
+
+.title {
+	font-size: 13pt;
+	text-align: justify;
+}
+.tbTitle, .tbTitle * {
+	color: #444;
+	font-size: 14pt;
+	padding: 1% 0 0.5% 0;
+}
+.tbSub * {
+	font-size: 13pt;
+	padding: 0.75% 0;
+}
